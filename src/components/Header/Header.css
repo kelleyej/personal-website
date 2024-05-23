@@ -29,3 +29,21 @@ a {
         font-size: 2.2em; 
     }
 }
+
+.scenic {
+    height: 50px;
+    margin-left: 35px;
+}
+
+.links {
+    display: flex; 
+}
+
+.intro {
+    display: flex;
+    align-items: center; 
+}
+
+.role {
+    font-size: 1.5em;
+}
