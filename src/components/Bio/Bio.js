@@ -6,7 +6,7 @@ export default function Bio(){
         <main className='bio-container'>
             <section className='bio'>
                 <img className='photo' src={Photo} />
-                <p>Hello, there!</p>
+                <h2>Hello, there!</h2>
             </section>
             <section>
                 <img className='mountain' />
