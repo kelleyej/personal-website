@@ -1,0 +1,16 @@
+.bio-container {
+    display: flex; 
+}
+
+.mountain {
+    height: 700px;
+    width: 35vw;
+    background-image: url('https://i.natgeofe.com/n/524a3b15-dd84-4eed-b117-321bb9d65739/lowimpactLEAD.jpg?w=1280&h=1920');
+    background-size: cover;
+    background-position: center;
+}
+
+.bio {
+    background-color: yellow;
+    width: 65vw;
+}
