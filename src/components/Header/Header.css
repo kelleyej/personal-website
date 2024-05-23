@@ -1,0 +1,23 @@
+header {
+    height: 10vh;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    display: flex; 
+    background-color: #A9BA9D;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0; 
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.github, 
+.linkedin {
+    height: 65px;
+}
+

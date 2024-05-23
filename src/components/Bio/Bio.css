@@ -11,6 +11,10 @@
 }
 
 .bio {
-    background-color: yellow;
+    background-color: #72A0C1;
     width: 65vw;
+}
+
+.photo {
+    height: 300px;
 }

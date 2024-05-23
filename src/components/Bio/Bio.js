@@ -1,11 +1,12 @@
-import Mountain from '../../assets/mountain.avif';
+import Photo from '../../assets/selfie.jpg';
 import './Bio.css';
 
 export default function Bio(){
     return (
         <main className='bio-container'>
             <section className='bio'>
-                <p>This will be the bio</p>
+                <img className='photo' src={Photo} />
+                <p>Hello, there!</p>
             </section>
             <section>
                 <img className='mountain' />
