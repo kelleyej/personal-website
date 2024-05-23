@@ -5,15 +5,52 @@ h3 {
     font-family: "Cedarville Cursive", cursive;
     font-weight: bold;
     font-style: normal; 
-    margin-top: -5px; 
 }
 
 .project-grid {
     display: grid; 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 #project-container {
     background-color: #007791;
+    margin-top: -10px;
 }
 
+.project-title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 70px;
+    margin-left: 15px; 
+}
+
+.pine {
+    height: 400px; 
+}
+
+.link {
+    height: 30px; 
+}
+
+.travel {
+    height: 400px;
+    width: 650px; 
+}
+
+.project {
+    border: solid 5px black; 
+    cursor: pointer;
+}
+
+.cypress {
+    height: 50px;
+}
+
+.house {
+    height: 300px
+}

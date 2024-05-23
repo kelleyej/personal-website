@@ -3,7 +3,7 @@
 }
 
 .mountain {
-    height: 700px;
+    height: 697px;
     width: 35vw;
     background-image: url('https://i.natgeofe.com/n/524a3b15-dd84-4eed-b117-321bb9d65739/lowimpactLEAD.jpg?w=1280&h=1920');
     background-size: cover;
@@ -13,12 +13,14 @@
 .bio {
     background-color: #72A0C1;
     width: 65vw;
-    height: 700px;
+    height: 609px;
+    margin-top: 12vh; 
 }
 
 .photo {
     height: 300px;
     border-radius: 20px;
+    margin-top: -140px;
 }
 
 h2 {
@@ -31,14 +33,18 @@ h2 {
 }
 
 .media-container {
-    margin-right: 5px;
+    /* margin-right: 5px; */
     display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
+    /* justify-content: flex-end; */
+    /* margin-top: 10px; */
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .github, 
 .linkedin {
     height: 65px;
-    margin-right: 2px;
 }

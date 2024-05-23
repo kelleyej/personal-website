@@ -7,7 +7,6 @@ header {
     background-color: #A9BA9D;
     align-items: center; 
     justify-content: space-between;
-    /* position: fixed; */
     position: fixed;
     top: 0;
     left: 0;
@@ -23,5 +22,10 @@ h1 {
 
 a {
     font-size: 2em;
+    color: black; 
+    text-decoration: none;
     margin-right: 30px;
+    &:hover {
+        font-size: 2.2em; 
+    }
 }
