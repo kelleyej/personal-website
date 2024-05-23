@@ -1,4 +1,4 @@
-.bio-container {
+#bio-container {
     display: flex; 
 }
 
@@ -13,10 +13,12 @@
 .bio {
     background-color: #72A0C1;
     width: 65vw;
+    height: 700px;
 }
 
 .photo {
     height: 300px;
+    border-radius: 20px;
 }
 
 h2 {
@@ -25,4 +27,18 @@ h2 {
     font-style: normal; 
     font-size: 5em; 
     margin-top: 0;
+    margin-bottom: 0; 
+}
+
+.media-container {
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.github, 
+.linkedin {
+    height: 65px;
+    margin-right: 2px;
 }

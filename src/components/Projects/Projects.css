@@ -1,0 +1,19 @@
+
+h3 {
+    font-size: 4em;
+    margin-top: 12px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: bold;
+    font-style: normal; 
+    margin-top: -5px; 
+}
+
+.project-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#project-container {
+    background-color: #007791;
+}
+

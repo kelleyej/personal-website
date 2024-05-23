@@ -1,5 +1,5 @@
 header {
-    height: 10vh;
+    height: 12vh;
     font-family: "Cedarville Cursive", cursive;
     font-weight: 400;
     font-style: normal; 
@@ -7,21 +7,21 @@ header {
     background-color: #A9BA9D;
     align-items: center; 
     justify-content: space-between;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
 }
 
 h1 {
     font-size: 3em;
     margin-top: 0; 
     margin-bottom: 0;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
-.github, 
-.linkedin {
-    height: 65px;
-}
-
-.media-container {
+a {
+    font-size: 2em;
     margin-right: 30px;
 }
-
