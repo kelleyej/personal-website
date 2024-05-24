@@ -19,9 +19,9 @@ export default function Header(){
             </div>  */}
             <div className='links'>
                 
-                <a href='#bio-container'>About Me</a>
-              <a>Resume</a>
-            <a href='#project-container'>Projects</a>  
+                <a className='media' href='#bio-container'>About Me</a>
+              <a className='media'>Resume</a>
+            <a className='media' href='#project-container'>Projects</a>  
             </div>
         </header>
         

@@ -19,6 +19,7 @@ import Vite from '../../assets/vitejs.svg';
 import Chai from '../../assets/chai.png'
 import Mocha from '../../assets/mocha.png'
 import TypeScript from '../../assets/typescript.svg'
+import BrainFood from '../../assets/brainfood.png'
 
 
 export default function Projects(){
@@ -52,8 +53,13 @@ console.log(mouseEvent)
                    <div className='social'><img className='cypress' src={Cypress} /><img className='react' src={ReactIcon} /><img src={Express} className='express'/><img className='cypress' src={Postgresql} /><img className='cypress' src={Knex} /></div>
                 <img className='house'src={House} />
                 </div>
-                <p className='title'>Brain Food</p>
+                <div>
+                     <p className='title'>Brain Food</p>
+                     <p className='progress'>(In progress...)</p>
                 <div className='social'><img className='cypress' src={FramerMotion} /><img className='cypress' src={Cypress} /><img className='cypress' src={Vite} /><img className='react' src={ReactIcon}/><img className='cypress' src={TypeScript} /></div>
+                <img className='travel' src={BrainFood} />
+                </div>
+               
             </section>
         </section>
         
