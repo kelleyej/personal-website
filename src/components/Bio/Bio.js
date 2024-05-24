@@ -17,11 +17,11 @@ export default function Bio(){
                 <div className='style'>
                    <img className='photo' src={Photo} /> 
                 <h2>Hello, there!</h2>
-                <p className='bio-message'>After seven years as a clinical Audiologist, I turned my passion for <span>problem solving</span> and use of <span>technology</span> to improve quality of life into a career in <span>software development</span> -- particularly to continue contributing to positive user outcomes while continuing to <span>learn</span>, <span>challenge</span> myself, and <span>collaborate</span> with others. Being outside makes me the happiest and you can often find me in the mountains, cycling, hiking, or camping. I have a cat named Squash, who has soaked in all the knowledge sitting on my lap when I'm at the computer. 
+                <p className='bio-message'>After seven years as a clinical Audiologist, I turned my passion for <span>problem solving</span> and use of <span>technology</span> to improve quality of life into a career in <span>software development</span> -- particularly to continue contributing to positive user outcomes while fostering my desire for lifelong <span>learning</span>. Being outside makes me the happiest and you can often find me in the mountains, cycling, hiking, or camping. I have a cat named Squash, who has soaked in all the knowledge sitting on my lap when I'm at the computer. 
                 </p> 
                 <br>
                 </br>
-                <p>I love <span className='c'>challenges</span>, <span className='c'>creativity</span>, and <span className='c'>collaboration</span> <span className='italic'>(and alliteration)</span>.</p>
+                <p className='alliteration'>I love <span className='c'>challenges</span>, <span className='c'>creativity</span>, and <span className='c'>collaboration</span> <span className='italic'>(and alliteration)</span>.</p>
                 </div>
                 
             </section>

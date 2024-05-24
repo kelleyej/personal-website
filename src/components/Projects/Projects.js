@@ -35,7 +35,7 @@ console.log(mouseEvent)
             <section className='project-grid'>
                 <div>
                    <p className='title'>PINE</p>
-                   <a href='https://pine-project.vercel.app/'><img className='link' src={Link} /></a>
+                   <a href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>
                    <div className='social'><img className='cypress' src={Cypress} /><img className='react' src={ReactIcon}/><img src={Express} className='express'/> </div>
                  <img className='pine' src={Pine} />  
@@ -48,7 +48,7 @@ console.log(mouseEvent)
                </div>
                <div>
                 <p className='title'>Housemate Hunter</p>
-                    <a href='https://housemate-hunter.vercel.app/'><img className='link' src={Link} /></a>
+                    <a href='https://housemate-hunter.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>
                    <div className='social'><img className='cypress' src={Cypress} /><img className='react' src={ReactIcon} /><img src={Express} className='express'/><img className='cypress' src={Postgresql} /><img className='cypress' src={Knex} /></div>
                 <img className='house'src={House} />

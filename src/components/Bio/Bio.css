@@ -24,7 +24,7 @@
     font-weight: 500;
     font-style: normal;
     margin-top: 0; 
-    width: 85%;
+    width: 90%;
     text-align: center;
     line-height: 1.6;
     margin-bottom: 0; 
@@ -40,7 +40,7 @@ h2 {
     font-family: "Cedarville Cursive", cursive;
     font-weight: bold;
     font-style: normal; 
-    font-size: 5em; 
+    font-size: 4.5em; 
     margin-top: 0;
     margin-bottom: 0; 
     color: #734444
@@ -76,11 +76,15 @@ span {
 }
 
 .c {
-    color: #d3a284
+    color: #aed09e
 }
 
 .italic {
     font-style: italic;
     color: black; 
     font-weight: 500;
+}
+
+.alliteration {
+    margin-top: 0; 
 }

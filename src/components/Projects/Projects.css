@@ -37,15 +37,25 @@ h3 {
 
 .pine {
     height: 400px; 
+    border-radius: 25px; 
+    margin-bottom: 20px; 
 }
 
-.link {
+.link, 
+.deploy {
     height: 30px; 
+
+}
+
+.deploy {
+    margin-right: 10px; 
 }
 
 .travel {
     height: 400px;
     width: 650px; 
+    border-radius: 25px; 
+    margin-bottom: 20px; 
 }
 
 .project {
@@ -57,10 +67,13 @@ h3 {
     height: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 15px; 
 }
 
 .house {
-    height: 400px
+    height: 400px;
+    border-radius: 25px; 
+    margin-bottom: 20px; 
 }
 
 .social {
@@ -73,12 +86,14 @@ h3 {
     height: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 15px; 
 }
 
 .express {
     height: 43px;
     margin-right: 10px; 
     margin-bottom: 10px;
+    margin-top: 15px; 
 }
 
 .title {
