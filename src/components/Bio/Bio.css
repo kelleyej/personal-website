@@ -17,10 +17,20 @@
     margin-top: 12vh; 
 }
 
+.bio-message {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0; 
+    width: 70%;
+    text-align: center;
+}
+
 .photo {
     height: 300px;
     border-radius: 20px;
-    margin-top: -140px;
+    margin-top: -190px;
 }
 
 h2 {
@@ -30,6 +40,7 @@ h2 {
     font-size: 5em; 
     margin-top: 0;
     margin-bottom: 0; 
+    color: #734444
 }
 
 .media-container {
@@ -47,4 +58,16 @@ h2 {
 .github, 
 .linkedin {
     height: 65px;
+}
+
+span {
+    color: #aedadd;
+    font-weight: bold;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
