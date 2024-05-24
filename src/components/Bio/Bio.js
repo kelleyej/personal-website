@@ -10,8 +10,8 @@ export default function Bio(){
             <section className='bio'>
           
                      <div className='media-container'>
-                <a href='https://github.com/kelleyej'><img className='github' src={Github} /></a>
-                <a href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin' src={Linkedin} /></a> 
+                <a target="_blank" href='https://github.com/kelleyej'><img className='github' src={Github} /></a>
+                <a target="_blank" href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin' src={Linkedin} /></a> 
                 <a href='#footer'><img className='linkedin' src={Gmail} /></a>
             </div>
                 <div className='style'>
