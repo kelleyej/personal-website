@@ -1,7 +1,10 @@
 import './Header.css';
 import Scenic from '../../assets/mountainscenic.png';
+import { HashLink as NavLink } from 'react-router-hash-link';
+import { useState } from 'react';
 
 export default function Header(){
+
     return (
         <header >
             <div className='intro'>
@@ -12,9 +15,9 @@ export default function Header(){
             <img className='scenic' src={Scenic} />
             </div>
             <div className='links'>
-                <a className='media' href='#bio-container'>About Me</a>
-              <a target="_blank" href='https://docs.google.com/document/d/1ObhAmSSIMxJcBMwDzsPG6LYI_XB0d7rL9OBp2dvxT3Y/edit?usp=sharing' className='media' >Resume</a>
-            <a className='media' href='#project-container'>Portfolio</a>  
+                <NavLink className='media' smooth to='#bio-container'>About Me</NavLink>
+                <NavLink className='media' smooth to='#project-container'>Portfolio</NavLink>
+              <NavLink  className='media' smooth to='#footer'>Contact</NavLink>
             </div>
         </header>
         

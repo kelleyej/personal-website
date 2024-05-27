@@ -15,7 +15,7 @@ export default function Footer(){
                 <a target="_blank" href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin-small' src={Linkedin} /></a> 
                 <a href="mailto:erin.kelley01@gmail.com"><img className='small' src={Gmail} /></a>
              </div>
-                
+             <a className='resume' target="_blank" href='https://docs.google.com/document/d/1ObhAmSSIMxJcBMwDzsPG6LYI_XB0d7rL9OBp2dvxT3Y/edit?usp=sharing'>Resume</a>
             </div>
             <div className='message'>
                 <h4>Say, hi!</h4>
