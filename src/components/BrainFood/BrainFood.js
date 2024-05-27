@@ -8,6 +8,7 @@ import TypeScript from '../../assets/typescript.svg'
 import Cypress from '../../assets/cypress.svg'
 import ReactIcon from '../../assets/react.png';
 import Click from '../../assets/click.png';
+import Back from '../../assets/back.png';
 
 export default function BrainFood(){
     const [isFlipped, setIsFlipped] = useState(true)
@@ -28,7 +29,7 @@ export default function BrainFood(){
         <div className='social'><img className='cypress' src={FramerMotion} /><img className='cypress' src={Cypress} /><img className='cypress' src={Vite} /><img className='react' src={ReactIcon}/><img className='cypress' src={TypeScript} /></div>
         <p className='project-description'>Brain Food is an application that allows users to input their general mood for the day on a scale of 1-5 -- a sadness to happiness rating. A collection of recipes will populate dependent on time allotted to cook and food with nutriental content intended to boost or maintain particular mood levels. The user can favorite recipes and view them on a dashboard.</p>
         </div>
-        <button onClick={handleClick}>⬅ Go back</button>
+        <button onClick={handleClick}><img className='back' src={Back}/>Go back</button>
         </div>
     </ReactCardFlip>
 

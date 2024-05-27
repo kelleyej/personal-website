@@ -10,7 +10,6 @@ export default function Footer(){
         <footer id='footer'>
             <div class='test'>
                 <img className='pic'src={Pic} />
-                {/* <p className='location'>📍 Denver, CO</p> */}
               <div className='social-container'>
                    <a target="_blank" href='https://github.com/kelleyej'><img className='github-small' src={Github} /></a>
                 <a target="_blank" href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin-small' src={Linkedin} /></a> 

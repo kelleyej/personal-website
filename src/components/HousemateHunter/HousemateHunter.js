@@ -7,7 +7,8 @@ import ReactIcon from '../../assets/react.png';
 import Express from '../../assets/express.png';
 import Postgresql from '../../assets/postgresql.png';
 import Knex from '../../assets/knex.png';
-import Click from '../../assets/click.png'
+import Click from '../../assets/click.png';
+import Back from '../../assets/back.png';
 
 export default function HousemateHunter(){
     const [isFlipped, setIsFlipped] = useState(true)
@@ -30,7 +31,7 @@ export default function HousemateHunter(){
         <p className='project-description'>Find potential roommates in either Denver or San Francisco. Users can filter roommates based on certain criteria, such as age range, smoking or pet preferences, and budget. By clicking on a roommate, you can view a personal biography, which includes interest, hobbies, and any special accomodations.</p>
         </div>
     
-        <button onClick={handleClick}>⬅ Go back</button>
+        <button onClick={handleClick}><img className='back' src={Back}/>Go back</button>
         </div>
     </ReactCardFlip>
 
