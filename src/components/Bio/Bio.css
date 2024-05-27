@@ -1,21 +1,23 @@
 #bio-container {
     display: flex; 
-    height: 100vh; 
+    height: 130vh; 
 }
 
 .mountain {
-    height: 99vh;
+    height: 117vh;
     width: 35vw;
     background-image: url('https://i.natgeofe.com/n/524a3b15-dd84-4eed-b117-321bb9d65739/lowimpactLEAD.jpg?w=1280&h=1920');
     background-size: cover;
     background-position: center;
+    margin-top: 12vh; 
 }
 
 .bio {
     background-color: #72A0C1;
     width: 65vw;
-    height: 87vh;
+    height: 117vh;
     margin-top: 12vh; 
+
 }
 
 .bio-message {
@@ -28,6 +30,7 @@
     text-align: center;
     line-height: 1.6;
     margin-bottom: 0; 
+    font-size: 1.2em;
 }
 
 .photo {
@@ -43,7 +46,7 @@ h2 {
     font-size: 4.5em; 
     margin-top: 0;
     margin-bottom: 0; 
-    color: #734444
+    color: #734444;
 }
 
 .media-container {
@@ -54,13 +57,22 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     width: 100px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 20px;
+    align-items: center; 
 }
 
 .github, 
 .linkedin {
     height: 65px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.github {
+    height: 59px;
+    margin-bottom: 4px;
 }
 
 span {
@@ -76,7 +88,8 @@ span {
 }
 
 .c {
-    color: #aed09e
+    color: #aedadd;
+
 }
 
 .italic {
@@ -87,4 +100,74 @@ span {
 
 .alliteration {
     margin-top: 0; 
+    font-size: 1.2em;
+    width: 90%;
+}
+
+@media screen and (max-width: 1240px) {
+    .mountain {
+        height: 125vh; 
+    }
+
+    .bio {
+        width: 100%; 
+        height: 125vh; 
+    }
+
+    #bio-container {
+        height: 130vh; 
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .mountain {
+        height: 125vh; 
+    }
+
+    .bio {
+        width: 100%; 
+        height: 125vh; 
+    }
+
+    #bio-container {
+        height: 130vh; 
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .mountain {
+        display: none; 
+    }
+
+    .bio {
+        width: 100%; 
+        height: 155vh; 
+    }
+
+    #bio-container {
+        height: 165vh; 
+    }
+
+    h2 {
+        font-size: 3.8em; 
+    }
+
+    .github, 
+.linkedin {
+    height: 55px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.github {
+    height: 49px;
+    margin-bottom: 4px;
+}
+
+.media-container {
+    width: 80px; 
+}
 }

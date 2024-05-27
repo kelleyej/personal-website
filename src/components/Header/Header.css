@@ -10,7 +10,9 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%
+    max-width: 100vw;
+    width: 100%;
+    z-index: 1000;
 }
 
 h1 {
@@ -20,8 +22,16 @@ h1 {
     margin-left: 50px;
 }
 
+.profession {
+    margin-top: -20px; 
+    margin-bottom: 0;
+    margin-left: 50px; 
+    font-size: 1.2em; 
+}
+
 .media {
     font-size: 2em;
+    font-weight: bold;
     color: black; 
     text-decoration: none;
     margin-right: 40px;
@@ -31,6 +41,10 @@ h1 {
 
 }
 
+.cloud {
+    height: 20px;
+}
+
 .scenic {
     height: 50px;
     margin-left: 35px;
@@ -38,7 +52,6 @@ h1 {
 
 .links {
     display: flex; 
-
 }
 
 .intro {
@@ -48,4 +61,40 @@ h1 {
 
 .role {
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 1240px) {
+    h1 { 
+       font-size: 2em;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+.media {
+    font-size: 1.5em; 
+
+
+}
+}
+@media screen and (max-width: 1024px) {
+    header {
+        overflow-x: hidden;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .media {
+        display: none; 
+    }
+
+    h1 {
+        margin-left: 0; 
+    }
+
+    header {
+        justify-content: center;
+    }
 }

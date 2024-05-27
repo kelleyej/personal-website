@@ -1,17 +1,27 @@
 import Range from '../../assets/range.png';
 import './Footer.css';
-import Pic from '../../assets/pic.png'
+import Pic from '../../assets/pic.png';
+import Github from '../../assets/github.png';
+import Linkedin from '../../assets/linkedin.png';
+import Gmail from '../../assets/gmail.png';
 
 export default function Footer(){
     return (
         <footer id='footer'>
             <div class='test'>
                 <img className='pic'src={Pic} />
-                <p className='location'>📍 Denver, CO</p>
+                {/* <p className='location'>📍 Denver, CO</p> */}
+              <div className='social-container'>
+                   <a target="_blank" href='https://github.com/kelleyej'><img className='github-small' src={Github} /></a>
+                <a target="_blank" href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin-small' src={Linkedin} /></a> 
+                <a href="mailto:erin.kelley01@gmail.com"><img className='small' src={Gmail} /></a>
+             </div>
+                
             </div>
             <div className='message'>
-               <p className='email'>erin.kelley01@gmail.com</p>
-            <h4>Say, hi!</h4>
+                <h4>Say, hi!</h4>
+               <a href="mailto:erin.kelley01@gmail.com" ><p className='email'>erin.kelley01@gmail.com</p></a>
+            
             <p className='greeting'>I would love to hear from you. Feel free to reach out.</p> 
             </div>
             

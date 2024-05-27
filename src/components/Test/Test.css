@@ -1,0 +1,39 @@
+button {
+    border-radius: 20px;
+    text-align: center;
+    border: solid 2px #007791; 
+    background-color: #aedadd;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 5px;
+    &:hover {
+        background-color: #FFFFE0;
+        transform: scale(1.1)
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click {
+    height: 20px;
+    margin-left: 5px;
+}
+.travel {
+    /* height: 380px; */
+    width: 100%;
+    /* height: 90%; */
+    border-radius: 25px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    button {
+        width: 50%;
+    }
+}

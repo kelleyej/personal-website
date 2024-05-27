@@ -1,5 +1,5 @@
 .range {
-    height: 100px; 
+    height: 85px; 
 }
 
 footer {
@@ -15,15 +15,22 @@ footer {
 }
 
 .email {
-    margin-top: 15px; 
-    margin-bottom: 0; 
+    margin-bottom: 3px; 
     font-size: 1.8em; 
+    margin-top: 0;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #72A0C1;
+    &:hover {
+        transform: scale(1.1)
+    }
 }
 
 .bottom {
     display: flex; 
     width: 33.3%;
     justify-content: center;
+
 }
 
 h4 {
@@ -33,14 +40,20 @@ h4 {
     font-size: 3em;
     margin-top: 0;
     margin-bottom: 0;
+
 }
 
 .test {
-    width: 33.3%
+    width: 33.3%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .greeting {
-    margin-top: 0;
+    margin-top: 20px;
+
 }
 
 .pic {
@@ -50,9 +63,72 @@ h4 {
 
 .location {
     margin-top: 0; 
+    margin-bottom: 0; 
+   
 }
 
 .message {
     width: 33%; 
+
+
 }
 
+
+.linkedin-small, 
+.small {
+    height: 40px; 
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.github-small {
+    margin-right: 5px; 
+    height: 36px;   
+    &:hover {
+        transform: scale(1.1);
+    } 
+}
+
+.small {
+    margin-left: 10px;
+}
+
+.linkedin-small {
+    margin-left: 5px; 
+}
+
+.social-container {
+    margin-top: 8px; 
+}
+
+@media screen and (max-width: 1024px) {
+    .range { 
+        height: 55px
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .range {
+        display: none; 
+    }
+
+    footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .message {
+        width: 100%
+    }
+
+    .pic {
+        margin-top: 5px;
+    }
+
+
+
+
+}
