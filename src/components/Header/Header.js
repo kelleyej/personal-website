@@ -27,7 +27,7 @@ export default function Header(){
             <div className='links'>
             
                 <a className='media' href='#bio-container'>About Me</a>
-              <a target="_blank" href='https://docs.google.com/document/d/1ObhAmSSIMxJcBMwDzsPG6LYI_XB0d7rL9OBp2dvxT3Y/edit?usp=sharing' className='media'>Resume</a>
+              <a target="_blank" href='https://docs.google.com/document/d/1ObhAmSSIMxJcBMwDzsPG6LYI_XB0d7rL9OBp2dvxT3Y/edit?usp=sharing' className='media' >Resume</a>
             <a className='media' href='#project-container'>Portfolio</a>  
             </div>
         </header>

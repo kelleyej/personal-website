@@ -4,6 +4,7 @@ import Github from '../../assets/github.png';
 import Linkedin from '../../assets/linkedin.png'
 import Gmail from '../../assets/gmail.png';
 import { motion } from 'framer-motion';
+import CV from '../../assets/cv.png'
 
 export default function Bio(){
     return (
@@ -13,6 +14,7 @@ export default function Bio(){
                 <a target="_blank" href='https://github.com/kelleyej'><img className='github' src={Github} /></a>
                 <a target="_blank" href='https://www.linkedin.com/in/kelleyej/'><img className='linkedin' src={Linkedin} /></a> 
                 <a href="mailto:erin.kelley01@gmail.com"><img className='linkedin' src={Gmail} /></a>
+                <a target="_blank" href='https://docs.google.com/document/d/1ObhAmSSIMxJcBMwDzsPG6LYI_XB0d7rL9OBp2dvxT3Y/edit?usp=sharing' ><img className='linkedin' src={CV} /></a>
             </div>
                 <div className='style'>
                    <img  className='photo' src={Photo} />

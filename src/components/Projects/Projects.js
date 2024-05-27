@@ -25,7 +25,8 @@ import Test from '../Test/Test';
 import Sparkle from '../../assets/sparkle.png'
 import BrainFood from '../BrainFood/BrainFood';
 import HousemateHunter from '../HousemateHunter/HousemateHunter';
-import Click from '../../assets/click.png'
+import Click from '../../assets/click.png';
+
 
 
 export default function Projects(){
