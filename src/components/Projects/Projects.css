@@ -169,7 +169,7 @@ h3 {
 
 @media screen and (max-width: 767px) {
 .details {
-    width: 380px;
+    width: 360px;
 
 }
 
@@ -201,7 +201,7 @@ h3 {
 .deploy {
     position: relative; 
     z-index: 1; 
-    margin-bottom: -55px; 
+    margin-bottom: -58px; 
     height: 38px; 
 }
 
