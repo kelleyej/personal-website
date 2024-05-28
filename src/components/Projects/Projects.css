@@ -149,9 +149,10 @@ h3 {
 }
 
 .title {
-    color: black;
+    color: #ebd5d5;;
     font-weight: bold;
     margin-top: 0; 
+    margin-bottom: -18px;
 }
 
 .progress {

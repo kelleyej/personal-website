@@ -20,6 +20,7 @@ import BrainFood from '../BrainFood/BrainFood';
 import HousemateHunter from '../HousemateHunter/HousemateHunter';
 import Click from '../../assets/click.png';
 import Back from '../../assets/back.png';
+import Color from '../../assets/color.png'
 
 
 export default function Projects(){
@@ -38,9 +39,9 @@ function handleClick(){
             <section className='project-grid'>
                
                 <div>
-                   <h4 className='title'>Pine</h4>
-                   <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
-                   <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>
+                       <h4 className='title'>Pine</h4>
+                        <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
+                   <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>  
       <ReactCardFlip isFlipped={!isFlipped} flipDirection="horizontal">
         
         <div className='details'>
