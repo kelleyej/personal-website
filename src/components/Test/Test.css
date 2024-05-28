@@ -33,5 +33,6 @@ button {
 @media screen and (max-width: 767px) {
     button {
         width: 50%;
+        margin-top: -20px;
     }
 }
