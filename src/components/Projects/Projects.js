@@ -12,7 +12,7 @@ import Express from '../../assets/express.png';
 import Postgresql from '../../assets/postgresql.png';
 import Knex from '../../assets/knex.png';
 import TypeScript from '../../assets/typescript.svg'
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ReactCardFlip from 'react-card-flip';
 import Test from '../Test/Test';
 import Sparkle from '../../assets/sparkle.png'
@@ -21,7 +21,6 @@ import HousemateHunter from '../HousemateHunter/HousemateHunter';
 import Click from '../../assets/click.png';
 import Back from '../../assets/back.png';
 import Color from '../../assets/color.png'
-
 
 export default function Projects(){
 const [details, setDetails] = useState(false)
@@ -38,7 +37,7 @@ function handleClick(){
             
             <section className='project-grid'>
                
-                <div>
+                <motion.div initial={{x: -500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
                        <h4 className='title'>Pine</h4>
                         <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>  
@@ -60,25 +59,25 @@ function handleClick(){
        
 </ReactCardFlip>
 
-               </div>
+               </motion.div>
                
-               <div>
+               <motion.div initial={{x: 500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
                 <h4 className='title'>Travel Tracker</h4>
                 <a target="_blank" href='https://github.com/kelleyej/TravelTracker'><img className='link' src={Github} /></a>
                 <Test />
                
-                </div>
-               <div>
+                </motion.div>
+               <motion.div initial={{x: -500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
                 <h4 className='title'>Housemate Hunter</h4>
                     <a target="_blank" href='https://housemate-hunter.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a target="_blank" href='https://github.com/kelleyej/housemate-hunter'><img className='link' src={Github} /></a>
                 <HousemateHunter />
-                </div>
-                <div>
+                </motion.div>
+                <motion.div initial={{x: 500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
                      <h4 className='title'>Brain Food</h4>
                      <p className='progress'>(In progress...)</p>
                 <BrainFood />
-                </div> 
+                </motion.div> 
             </section>
         </section>
         
