@@ -37,7 +37,7 @@ function handleClick(){
             
             <section className='project-grid'>
                
-                <motion.div initial={{x: -500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
+                <motion.div transition={{delay: 0.3, duration: 0.5}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
                        <h4 className='title'>Pine</h4>
                         <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>  
@@ -61,19 +61,19 @@ function handleClick(){
 
                </motion.div>
                
-               <motion.div initial={{x: 500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
+               <motion.div transition={{delay: 0.3, duration: 0.5}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
                 <h4 className='title'>Travel Tracker</h4>
                 <a target="_blank" href='https://github.com/kelleyej/TravelTracker'><img className='link' src={Github} /></a>
                 <Test />
                
                 </motion.div>
-               <motion.div initial={{x: -500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
+               <motion.div transition={{delay: 0.3, duration: 0.5}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
                 <h4 className='title'>Housemate Hunter</h4>
                     <a target="_blank" href='https://housemate-hunter.vercel.app/'><img className='deploy' src={Link} /></a>
                    <a target="_blank" href='https://github.com/kelleyej/housemate-hunter'><img className='link' src={Github} /></a>
                 <HousemateHunter />
                 </motion.div>
-                <motion.div initial={{x: 500, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 0.5, amount: 0.1, delay: 0.6}} viewport={{ once: true }}>
+                <motion.div transition={{delay: 0.3, duration: 0.5}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }} viewport={{ once: true }}>
                      <h4 className='title'>Brain Food</h4>
                      <p className='progress'>(In progress...)</p>
                 <BrainFood />
