@@ -75,7 +75,8 @@ function handleClick(){
                 </motion.div>
                 <motion.div transition={{delay: 0.2, duration: 0.7}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }} viewport={{ once: true }}>
                      <h4 className='title'>Brain Food</h4>
-                     <p className='progress'>(In progress...)</p>
+                     <a target="_blank" href='https://jade-lebkuchen-46144d.netlify.app/'><img className='deploy' src={Link} /></a>
+                   <a target="_blank" href='https://github.com/Moody-Foodies/moody-foodies-fe'><img className='link' src={Github} /></a>
                 <BrainFood />
                 </motion.div> 
             </section>
