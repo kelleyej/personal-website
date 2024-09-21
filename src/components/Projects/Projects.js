@@ -17,71 +17,78 @@ import ReactCardFlip from 'react-card-flip';
 import Test from '../Test/Test';
 import Sparkle from '../../assets/sparkle.png'
 import BrainFood from '../BrainFood/BrainFood';
+import CatCorner from '../CatCorner/CatCorner';
 import HousemateHunter from '../HousemateHunter/HousemateHunter';
 import Click from '../../assets/click.png';
 import Back from '../../assets/back.png';
 import Color from '../../assets/color.png'
 
-export default function Projects(){
-const [details, setDetails] = useState(false)
-const [isFlipped, setIsFlipped] = useState(true)
+export default function Projects() {
+    const [details, setDetails] = useState(false)
+    const [isFlipped, setIsFlipped] = useState(true)
 
-function handleClick(){
-    setIsFlipped(!isFlipped)
-}
+    function handleClick() {
+        setIsFlipped(!isFlipped)
+    }
     return (
         <section id='project-container'>
             <div className='project-title'>
                 <h3>Portfolio.</h3>
             </div>
-            
-            <section className='project-grid'>
-               
-                <motion.div transition={{delay: 0.2, duration: 0.7}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
-                       <h4 className='title'>Pine</h4>
-                        <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
-                   <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>  
-      <ReactCardFlip isFlipped={!isFlipped} flipDirection="horizontal">
-        
-        <div className='details'>
-            <div className='help'>
-            <img className='project-pic' src={Pine} />
-            </div>
-          <button onClick={handleClick}>Click here for details<img className='click' src={Click}/></button> 
-        </div>  
-        <div className='details'>
-        <div className='deets'>
-            <div className='social'><img className='cypress' src={Cypress} /><img className='react' src={ReactIcon}/><img src={Express} className='express'/> </div>
-        <p className='project-description'>Explore all 63 National Parks in the United States with PINE. The application allows users to view National Parks by region and state. The user can further explore each park to learn more about weather trends, park entrance fees, and get directions. You can also track which National Parks you have visited on the park tracker!</p>
-        </div>
-            <button onClick={handleClick}><img className='back' src={Back}/>Go back</button>
-        </div>
-       
-</ReactCardFlip>
 
-               </motion.div>
-               
-               <motion.div transition={{delay: 0.2, duration: 0.7}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
-                <h4 className='title'>Travel Tracker</h4>
-                <a target="_blank" href='https://github.com/kelleyej/TravelTracker'><img className='link' src={Github} /></a>
-                <Test />
-               
+            <section className='project-grid'>
+
+                <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }}>
+                    <h4 className='title'>Pine</h4>
+                    <a target="_blank" href='https://pine-project.vercel.app/'><img className='deploy' src={Link} /></a>
+                    <a target="_blank" href='https://github.com/kelleyej/pine-project'><img className='link' src={Github} /></a>
+                    <ReactCardFlip isFlipped={!isFlipped} flipDirection="horizontal">
+
+                        <div className='details'>
+                            <div className='help'>
+                                <img className='project-pic' src={Pine} />
+                            </div>
+                            <button onClick={handleClick}>Click here for details<img className='click' src={Click} /></button>
+                        </div>
+                        <div className='details'>
+                            <div className='deets'>
+                                <div className='social'><img className='cypress' src={Cypress} /><img className='react' src={ReactIcon} /><img src={Express} className='express' /> </div>
+                                <p className='project-description'>Explore all 63 National Parks in the United States with PINE. The application allows users to view National Parks by region and state. The user can further explore each park to learn more about weather trends, park entrance fees, and get directions. You can also track which National Parks you have visited on the park tracker!</p>
+                            </div>
+                            <button onClick={handleClick}><img className='back' src={Back} />Go back</button>
+                        </div>
+
+                    </ReactCardFlip>
+
                 </motion.div>
-               <motion.div transition={{delay: 0.2, duration: 0.7}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }}>
-                <h4 className='title'>Housemate Hunter</h4>
+
+                <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }}>
+                    <h4 className='title'>Travel Tracker</h4>
+                    <a target="_blank" href='https://github.com/kelleyej/TravelTracker'><img className='link' src={Github} /></a>
+                    <Test />
+
+                </motion.div>
+                <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }}>
+                    <h4 className='title'>Housemate Hunter</h4>
                     <a target="_blank" href='https://housemate-hunter.vercel.app/'><img className='deploy' src={Link} /></a>
-                   <a target="_blank" href='https://github.com/kelleyej/housemate-hunter'><img className='link' src={Github} /></a>
-                <HousemateHunter />
+                    <a target="_blank" href='https://github.com/kelleyej/housemate-hunter'><img className='link' src={Github} /></a>
+                    <HousemateHunter />
                 </motion.div>
-                <motion.div transition={{delay: 0.2, duration: 0.7}} initial={{scale: 0}} whileInView={{scale:1, amount: 0.1}} viewport={{ once: true }} viewport={{ once: true }}>
-                     <h4 className='title'>Brain Food</h4>
-                     <a target="_blank" href='https://jade-lebkuchen-46144d.netlify.app/'><img className='deploy' src={Link} /></a>
-                   <a target="_blank" href='https://github.com/Moody-Foodies/moody-foodies-fe'><img className='link' src={Github} /></a>
-                <BrainFood />
-                </motion.div> 
+                <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }} viewport={{ once: true }}>
+                    <h4 className='title'>Brain Food</h4>
+                    <a target="_blank" href='https://jade-lebkuchen-46144d.netlify.app/'><img className='deploy' src={Link} /></a>
+                    <a target="_blank" href='https://github.com/Moody-Foodies/moody-foodies-fe'><img className='link' src={Github} /></a>
+                    <BrainFood />
+                </motion.div>
+                <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }} viewport={{ once: true }}>
+                    <h4 className='title'>Cat Corner</h4>
+                    <a target="_blank" href='https://cat-corner.vercel.app/'><img className='deploy' src={Link} /></a>
+                    <a target="_blank" href='https://github.com/kelleyej/cat-corner'><img className='link' src={Github} /></a>
+                    <CatCorner />
+                </motion.div>
             </section>
         </section>
-        
-        
+
+
     )
 }
