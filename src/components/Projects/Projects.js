@@ -81,7 +81,7 @@ export default function Projects() {
                     <BrainFood />
                 </motion.div>
                 <motion.div transition={{ delay: 0.2, duration: 0.7 }} initial={{ scale: 0 }} whileInView={{ scale: 1, amount: 0.1 }} viewport={{ once: true }} viewport={{ once: true }}>
-                    <h4 className='title'>Cat Corner (in progress)</h4>
+                    <h4 className='title'>Cat Corner</h4>
                     <a target="_blank" href='https://cat-corner.vercel.app/'><img className='deploy' src={Link} /></a>
                     <a target="_blank" href='https://github.com/kelleyej/cat-corner'><img className='link' src={Github} /></a>
                     <CatCorner />

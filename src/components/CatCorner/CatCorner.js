@@ -26,7 +26,7 @@ export default function HousemateHunter() {
                 <div className='deets'>
                     {/* <h4>Housemate Hunter</h4> */}
                     <div className='social'><img className='cypress' src={Svelte} /><img className='cypress' src={Tailwind} /><img className='cypress' src={OpenAI} /></div>
-                    <p className='project-description'>Purrrrrfect your cat knowledge! View 67 breeds of cats to learn more about levels of affection, friendliness, energy, intelligence, and more. Paginate through pages and use the question box to ask anything you have ever wanted to know about cats. </p>
+                    <p className='project-description'>Purrrrrfect your cat knowledge! View 67 breeds of cats to learn more about levels of affection, friendliness, energy, intelligence, and more. Paginate through pages, search for specific cat breeds, and use the question box to ask anything you have ever wanted to know about cats.  </p>
                 </div>
 
                 <button onClick={handleClick}><img className='back' src={Back} />Go back</button>
